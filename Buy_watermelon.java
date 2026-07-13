@@ -91,7 +91,7 @@ class Person {
             System.out.print("（");
             System.out.print(name);
             System.out.print("用");
-            System.out.print(picks);
+            System.out.print(picks.name);
             System.out.print("把");
             System.out.print(other.name);
             if (picks.name.equals("刀")) {
